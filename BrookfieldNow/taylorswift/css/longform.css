@@ -1,0 +1,326 @@
+/* this is where all of your CSS styles go */
+
+body, html {
+	height: 100%;
+	width: 100%;
+	border: 0;
+	/* background-color: #e6e6e6; */
+
+}
+
+/* embedded fonts */
+@font-face {
+	font-family: title;
+	src: url(../../fonts/pt_sans_narrow/regular.ttf);
+}
+
+.text {
+	font-family: title;
+	font-size: 40px;
+	color: #161616;
+
+}
+
+@font-face {
+	font-family: story;
+	src: url(../../fonts/opensans/regular.ttf);
+}
+
+.text {
+	font-family: story;
+	font-size: 16px;
+	color: #161616;
+
+}
+
+@font-face {
+	font-family: bold;
+	src: url(../../fonts/opensans/bold.ttf)
+}
+
+.text {
+	font-family: bold;
+}
+
+@font-face {
+	font-family: light;
+	src: url(../../fonts/opensans/light.ttf)
+}
+
+.text {
+	font-family: light;
+}
+
+
+#menu_scroll{
+	width: 1400px;
+	height: 60px;
+	background-color: #ce0606;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+}
+
+a {
+	text-decoration: none;
+	color: #e6e6e6;
+}
+
+a:visited {
+	color: #e6e6e6;
+}
+
+.button {
+	font-family: OpenSans-Semibold;
+	width: 1100px;
+	color: #6e6e6e;
+	font-size: 16px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: 40px;
+	height: 30px;
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	margin-left: -550px;
+}
+
+#logo{
+	margin-left: 20px;
+	width: 112px;
+	height: 57.6px;
+}
+
+.link {
+	margin-left: 85px;
+	position: relative;
+	top: -23px;
+}
+
+.link:nth-child(2) {
+	margin-left: 20px;
+}
+
+#article {
+	position: relative;
+	margin-top: 150px;
+}
+
+#intro {
+	margin-top: 150px;
+}
+
+
+#title{
+	font-family: title;
+	font-size: 70px;
+	margin-left: 200px;
+	margin-right: 200px;
+	text-align: center;
+	color: #ce0606;
+}
+
+#description{
+	font-family: story;
+	font-size: 20px;
+	margin-left: 325px;
+	margin-right: 325px;
+	text-align: center;
+	margin-top: -20px;
+}
+
+#author{
+	font-family: bold;
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+#story {
+	margin-left: 300px;
+	margin-right: 300px;
+	font-family: story;
+	font-size: 16px;
+
+}
+
+.line{
+	color: #ce0606
+	height: 1px;
+	width: 1000px;
+}
+
+.caption{
+	font-family: light;
+	font-size: 12px;
+	margin-top: -5px;
+	margin-bottom: 50px;
+}
+
+#video{
+	margin-top: 50px;
+	margin-left: -170px;
+
+}
+
+#instaimg{
+	height: 375px;
+	width: 358px;
+	margin-left: 560px;
+}
+
+#instacap {
+	font-family: light;
+	font-size: 12px;
+	margin-bottom: 50px;
+	margin-left: 570px;
+	margin-right: -100px;
+
+}
+
+#insta{
+	margin-top: -440px;
+	margin-right: 350px;
+}
+
+.insta2{
+	margin-right: 250px;
+
+}
+
+#fragility{
+	font-family: title;
+	margin-top: 200px;
+	margin-bottom: 200px;
+	margin-left: -100px;
+	margin-right: -100px;
+	color: #ce0606;
+	font-size: 100px;
+	text-align: center;
+}
+
+#sales {
+	font-family: title;
+	font-size: 45px;
+	margin-left: -200px;
+	margin-right: 600px;
+	color: #ce0606;
+
+}
+
+#salesp {
+	margin-left: 225px;
+	margin-top: -350px;
+}
+
+#styles {
+	margin-left: 560px;
+}
+
+#stylesp {
+	margin-right: 250px;
+	margin-top: -300px;
+}
+
+#stylesp2 {
+	margin-right: 250px;
+	
+}
+
+#drama {
+	font-family: title;
+	margin-top: 200px;
+	margin-bottom: 200px;
+	margin-left: -100px;
+	margin-right: -100px;
+	color: #ce0606;
+	font-size: 70px;
+	text-align: center;
+}
+
+#mag {
+	align-content: center;
+}
+
+#shake{
+	margin-top: 50px;
+	margin-left: 560px;
+	height: 433px;
+	width: 417px;
+
+}
+
+#shakep {
+	margin-right: 250px;
+	margin-top: -500px;
+}
+
+#shakep2 {
+	margin-right: 250px;
+	
+}
+
+#stylesp {
+	margin-right: 250px;
+	margin-top: -300px;
+}
+
+#stylesp2 {
+	margin-right: 250px;
+	
+}
+
+#squad{
+	width: 694px;
+	height: 660px;
+	
+}
+
+#squadg{
+	margin-bottom: 100px;
+	margin-top: 100px;
+}
+
+#footer{ 
+	width: 1400px;
+	height: 300px;
+	background-color: #ce0606; 
+	margin-top: 100px;
+}
+
+#footing {
+	
+}
+
+#list{
+	margin-left: 600px;
+	margin-top: -250px;
+	font-family: story;
+	list-style-type: none;
+	color: #e6e6e6;
+}
+
+
+.icons{
+	margin-left: 900px;
+	margin-top: -150px;
+	color: #e6e6e6;
+
+}
+
+.social {
+	height: 50px;
+	width: 50px;
+	padding-left: 20px;
+}
+
+#copy{
+	color: #e6e6e6;
+	margin-left: 920px;
+	margin-top: 20px;
+	font-family: story;
+
+}
+
+
+
